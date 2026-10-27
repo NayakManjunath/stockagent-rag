@@ -1,6 +1,7 @@
 
 """Document ingestion schemas and contracts."""
 
+from stockagent.ingestion.discovery import FileDiscovery
 from stockagent.ingestion.schemas import (
     DocumentLoader,
     DocumentMetadata,
@@ -11,6 +12,7 @@ from stockagent.ingestion.schemas import (
 __all__ = [
     "DocumentLoader",
     "DocumentMetadata",
+    "FileDiscovery",
     "IngestedDocument",
     "MetadataValue",
 ]
