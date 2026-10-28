@@ -1,7 +1,9 @@
-"""Document ingestion schemas, discovery, and loading."""
+
+"""Document ingestion schemas, discovery, loading, and normalization."""
 
 from stockagent.ingestion.discovery import FileDiscovery
 from stockagent.ingestion.loader import DocumentFileLoader
+from stockagent.ingestion.normalizer import TextNormalizer
 from stockagent.ingestion.schemas import (
     DocumentLoader,
     DocumentMetadata,
@@ -16,4 +18,5 @@ __all__ = [
     "FileDiscovery",
     "IngestedDocument",
     "MetadataValue",
+    "TextNormalizer",
 ]
