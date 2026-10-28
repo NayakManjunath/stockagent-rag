@@ -10,8 +10,10 @@ description = "A RAG-enhanced multi-agent financial trading simulation."
 readme = "README.md"
 requires-python = ">=3.11,<3.13"
 
+
 dependencies = [
     "python-dotenv>=1.0,<2.0",
+    "pypdf>=5.0",
 ]
 
 
